@@ -1,0 +1,137 @@
+.meteor {
+    width: 50px;
+    height: 80px;
+    background-image: url("../images/sprite.png");
+    background-color: #fff;
+    -webkit-animation: play .8s steps(10) infinite;
+       -moz-animation: play .8s steps(10) infinite;
+        -ms-animation: play .8s steps(10) infinite;
+         -o-animation: play .8s steps(10) infinite;
+            animation: play .8s steps(10) infinite;
+}
+.meteor {
+  position: relative;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 500px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 500px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position:  500px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position:  500px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: 500px; }
+} 
+nav {
+  position: relative;
+}
+body {
+  text-align: center;
+  max-width: 1100px;'
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.0em;
+}
+
+.top-bar, .top-bar ul {
+  background-color: #fff;
+}
+a {
+  color: #000;
+}
+.heading {
+  position: relative;
+  top: 100px;
+ font-family: 'Roboto', sans-serif;
+   
+}
+.apple {
+  min-height: 800px;
+}
+#google{
+  position: relative;
+  font-family: 'Lato', sans-serif;
+
+  position: relative;
+    transition: all 0.5s ease;
+}
+#google:hover  {
+  -webkit-animation-name: color-me-in; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+      animation-name: color-me-in;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+}
+@keyframes color-me-in {
+
+  /* Adding a step in the middle */
+  0% {
+    color: #228B22;
+  }
+  25% {
+    color: #0099cc
+  }
+  50% {
+    color: #ff6600;
+  }
+
+  75% {
+    color: #cc0000;
+  }
+  100% {
+    color: #000;
+  }
+}
+#facebook {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+
+  transition: 4s;
+  transform:scale(1.0,1.0);
+}
+#facebook:hover {
+  font-family: 'Open Sans', sans-serif;
+
+  transform:scale(1.4,1.4);
+  color: #2e5a86;
+}
+
+#apple{
+  position: relative;
+
+ font-family: 'Roboto', sans-serif;
+
+   transition: 4s;
+}
+#apple:hover{
+ font-family: 'Roboto', sans-serif;
+
+   -ms-transform: rotateY(360deg); /* IE 9 */
+   -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+   transform: rotateY(360deg); /* Standard syntax */
+}
+
+.title-bar {
+    background: #fff;
+  }
+#google, #apple, #facebook {
+  font-size: 2.0em;
+  color: darkblue;
+}
